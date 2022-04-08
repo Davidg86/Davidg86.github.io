@@ -1,0 +1,68 @@
+
+   @font-face {
+    font-family: 'fernyndaregular';
+    src: url('font/fernynda/fernynda-webfont.woff2') format('woff2'),
+         url('font/fernynda/fernynda-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+  margin: 0;
+ box-sizing: border-box;   
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(Photos/bgcpresentation.jpg) ;
+     background-size: cover; 
+    
+    
+   }
+
+  
+
+
+.header{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+        /* div globale de présentation */
+.presentation{
+    background-color: #fefee0;
+    width: 720px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.presentationPic{
+    border-radius: 50%;
+    float: left;
+    
+}
+
+
+.presentationTxt{
+    font-family: 'fernyndaregular';
+    font-size: 25px;
+    shape-outside: circle();
+    margin: 5px;
+}
+    /* Div qui contient les photos de galerie */
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    width: 960px;
+    margin: 0 auto;
+    padding: 100px;
+    row-gap: 35px;
+   column-gap: 5px;
+}
+
